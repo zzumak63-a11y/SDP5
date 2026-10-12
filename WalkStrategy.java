@@ -7,3 +7,4 @@ public class WalkStrategy implements RouteStrategy {
         System.out.println("Distance: " + distanceKm + " km, time: " + time + " h");
     }
 }
+
