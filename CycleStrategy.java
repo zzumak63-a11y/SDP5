@@ -1,0 +1,9 @@
+public class CycleStrategy implements RouteStrategy {
+    @Override
+    public void buildRoute(String from, String to, double distanceKm) {
+        double speed = 15;
+        double time = distanceKm / speed;
+        System.out.println("Cycle route: " + from + " -> " + to);
+        System.out.println("Distance: " + distanceKm + " km, time: " + time + " h");
+    }
+}
