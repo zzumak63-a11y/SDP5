@@ -13,4 +13,3 @@ public class Navigator {
         strategy.buildRoute(from, to, distanceKm);
     }
 }
-
